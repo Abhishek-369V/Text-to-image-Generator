@@ -21,8 +21,6 @@ export default function ImageGenerator() {
         setLoading(true)
         setImageUrl(null)                 //Clears old image so the new one replaces it.
     
-    // const HF_KEY = import.meta.env.VITE_HF_API_KEY
-    console.log("KEY:", import.meta.env.VITE_HF_API_KEY);
 
         if (!input.trim()) {
             seterror("Please enter some prompt")
