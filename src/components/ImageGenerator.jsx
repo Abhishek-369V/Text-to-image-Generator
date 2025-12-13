@@ -27,7 +27,7 @@ export default function ImageGenerator() {
             setLoading(false)
             return
         }
-        console.log(import.meta.env.VITE_HF_API_KEY?slice(0,6));
+        console.log(import.meta.env.VITE_HF_API_KEY?.slice(0,6));
 
         // Coding practise: always render await.fetch or await.axios in try,catch!
         try {
